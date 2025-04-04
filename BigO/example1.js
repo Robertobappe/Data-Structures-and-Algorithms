@@ -1,7 +1,6 @@
-//O(n)
-const nemo = ['nemo'];
+const nemo = ['nemo']; //O(1)
 const everyone = ['dory', 'bruce', 'marlin', 'nemo', 'gill', 'bloat', 'nigel', 'squirt', 'darla', 'hank'];
-const large = new Array(10000).fill('nemo');
+const large = new Array(10000).fill('nemo'); //O(10000)
 
 function findNemo1(array) {
   let t0 = performance.now();
@@ -14,4 +13,4 @@ function findNemo1(array) {
   console.log('Call to find Nemo took ' + (t-t0) + ' milliseconds');
 }
 
-findNemo1(large);
+findNemo1(large); //O(n) --> Linear Time
