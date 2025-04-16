@@ -72,7 +72,9 @@ function sumPar3(arr,sum){
 //console.log(sumPar3(arr2,sum));
 
 //--------------------------------------------------------------------
+//if the array is not sorted
 //great solution
+
 arr1 = [1,2,3,9];
 arr2 = [1,2,4,4];
 sum=8;
