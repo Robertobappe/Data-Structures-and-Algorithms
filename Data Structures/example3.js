@@ -37,6 +37,6 @@ function reverse(str){
   
   const reverse3 = str => [...str].reverse().join('');
   
-  reverse('Timbits Hi')
-  reverse('Timbits Hi')
-  reverse3('Timbits Hi')
+  reverse('Timbits Hi');
+  reverse('Timbits Hi');
+  reverse3('Timbits Hi');
