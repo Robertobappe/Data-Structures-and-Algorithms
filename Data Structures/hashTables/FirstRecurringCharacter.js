@@ -33,5 +33,5 @@ function firstRecurringCharacter2(arr){
     return undefined;    
 }//O(n)
 
-console.log(firstRecurringCharacter([2,5,1,2,3,5,1,2,4]));
+//console.log(firstRecurringCharacter([2,5,1,2,3,5,1,2,4]));
 //brute force doesn't work for [2,5,5,2,3,5,1,2,4]
