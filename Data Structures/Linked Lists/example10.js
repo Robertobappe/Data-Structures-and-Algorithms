@@ -106,4 +106,9 @@ myLinkedList.remove(2)
 myLinkedList.reverse()
 
 
+//Linked Lists
+//fast insertion x slow lookup
+//fast deletion x more memory
+//Ordered
+//flexible size
 
