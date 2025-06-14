@@ -1,6 +1,6 @@
 class Solution:
     def factorial(self, n: int) -> int:
-        #Iterative
+        #Iterative O(n)
         '''
         fat = 1
         if n <= 0:
@@ -11,7 +11,7 @@ class Solution:
         return fat
         '''
         
-        # Recursive
+        # Recursive O(2^n)
         if n < 0:
             return None
         elif n== 0 or n == 1:
