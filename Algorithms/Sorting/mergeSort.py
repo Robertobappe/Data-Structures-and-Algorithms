@@ -1,6 +1,7 @@
 from typing import List
 
 class solution():
+    # Time compexity of O(nlogn)
     def mergeSort(self, nums: List[int]) -> List[int]:
         n = len(nums)
 
@@ -46,8 +47,8 @@ def main():
         [5432,5,4,86,2,1,35,0],
         [5,12,98,-1,45,4,8,3],
         [12, 11, 13, 5, 6],
-        [1], # Teste com 1 elemento
-        []   # Teste com lista vazia
+        [1], 
+        []   
     ]
 
     sol = solution()
