@@ -1,4 +1,7 @@
 from typing import List
+# Time coplexity (average and worst) of O(n^2)
+# Space complexity of O(1)
+# Use cases: if your input is small or mostly sorted
 class solution():
     def insertionSort(self, nums: List[int]) -> List[int]:
         n = len(nums)

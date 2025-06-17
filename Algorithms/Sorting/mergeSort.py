@@ -1,7 +1,8 @@
 from typing import List
 
 class solution():
-    # Time compexity of O(nlogn)
+    # Time compexity (average and worst) of O(nlogn)
+    # Space complexity of O(n)
     def mergeSort(self, nums: List[int]) -> List[int]:
         n = len(nums)
 

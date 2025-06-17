@@ -1,7 +1,8 @@
 from typing import List
 class Solution:
     def selectionSort(self, nums: List[int]) -> List[int]:
-        # Time complexity O(n^2)
+        # Time complexity (average and worst) of O(n^2)
+        # Space complexity O(1)
         for i in range(len(nums) - 1):
             minNumber = nums[i]
             change = False

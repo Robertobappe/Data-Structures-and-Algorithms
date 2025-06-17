@@ -1,6 +1,7 @@
 from typing import List
 class Solution:
-    #Time complexity of O(n^2)
+    # Time complexity (average and worst) of O(n^2)
+    # Space complexity of O(1)
     def bubbleSort(self, nums: List[int]) -> List[int]:
         Change = True
         while Change:
