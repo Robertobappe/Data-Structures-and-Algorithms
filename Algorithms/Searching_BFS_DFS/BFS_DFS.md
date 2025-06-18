@@ -3,4 +3,4 @@
 # If the tree is very wide: DFS (BFS will nedd too much memory)
 # If solutions are frequent but located deep in the tree: DFS
 # Determining whether a path exists between two nodes: DFS
-# Finding the shortest path: 
+# Finding the shortest path: BFS
